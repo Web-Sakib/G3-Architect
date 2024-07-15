@@ -90,6 +90,39 @@ header {
 
 
 .banner-img {
-  max-width: ;width: 1440px;
+  max-width: 1440px;
   margin: 40px auto;
+}
+
+/* Small Device Responsive */ 
+@media screen and (max-width: 576px) {
+  .brand-name {
+    display: none;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 50px;
+  }
+
+}
+
+/* Medium Device Responsive */
+@media screen and (min-width:576px) and (max-width: 992px) {
+  
+  .brand-name {
+    font-size: 30px;
+  }
+
+  .banner-title {
+    font-size: 40px;
+  } 
+  .banner-img img {
+    width: 100%;
+  }
 }
