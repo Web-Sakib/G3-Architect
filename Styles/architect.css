@@ -21,6 +21,16 @@ body {
   color: #727272;
 }
 
+.primary-btn {
+  background-color: #FF900E;
+  color: white;
+  padding: 20px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  justify-content: center;
+}
+
 
 
 
@@ -32,17 +42,20 @@ body {
 
 header {
   background-color: rgba(255, 144, 14, 0.1);
+  padding-bottom: 20px;
 }
 
+  /* Navbar Styles */
 .navbar {
   max-width: 1440px;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
+  padding: 50px;
 }
 
 .brand-name {
-  font-size: 45px;
+  font-size: 3rem;
   font-weight: 700;
 }
 .nav-links {
@@ -56,4 +69,27 @@ header {
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
+}
+
+/* Banner Styles */
+
+.banner {
+  max-width: 867px;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.banner-title{
+  font-size: 4rem;
+  font-weight: 700;
+
+}
+
+
+.banner-img {
+  max-width: ;width: 1440px;
+  margin: 40px auto;
 }
