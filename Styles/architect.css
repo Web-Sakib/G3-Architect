@@ -180,16 +180,9 @@ header {
   margin-top: 0.5rem;
 }
 
-
-
-.flow {
-  /* position: absolute;
-  top: 58rem;
-  right: 38rem; */
-
-
+.feature-img-girl {
+  width: 100%;
 }
-
 
 #ex-badge {
   padding: 45px 42px;
@@ -280,9 +273,19 @@ header {
     margin: 0 2rem;
   }
 
-  
-
-
+    /* for Feature styles  */
+    .all-features {
+      flex-direction: column-reverse;
+    }
+    .feature-img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    #ex-badge {
+      padding: 45px 42px;
+      margin: 2rem auto ;
+    }
 
 
 
